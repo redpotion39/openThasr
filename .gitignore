@@ -1,0 +1,27 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model large weights (download via download_models.py)
+models/*.onnx
+models/*.data
+models/.cache/
+.cache/
+
+# Audio test files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# OS generated
+.DS_Store
+Thumbs.db
